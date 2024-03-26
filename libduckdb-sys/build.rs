@@ -165,7 +165,7 @@ mod build_bundled {
         }
 
         cfg.compile(lib_name);
-        println!("cargo:lib_dir={out_dir}");
+        println!("cargo:lib_dir={}",out_dir);
     }
 }
 
