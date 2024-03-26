@@ -23,7 +23,6 @@ buildtime_bindgen = ["bindgen", "pkg-config", "vcpkg"]
 httpfs = ["bundled"]
 json = ["bundled"]
 parquet = ["bundled"]
-motherduck = ["bundled"]
 extensions-full = ["httpfs", "json", "parquet"]
 
 [dependencies]
