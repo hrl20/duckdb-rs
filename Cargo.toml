@@ -16,7 +16,7 @@ categories = ["database"]
 
 [lib]
 name = "duckdb"
-crate-type = ["rlib", "dylib"]
+crate-type = ["rlib", "cdylib"]
 
 [workspace]
 members = ["libduckdb-sys", "duckdb-loadable-macros"]
